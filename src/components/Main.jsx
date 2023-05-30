@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./Navbar";
 
 function Main() {
   return (
     <div>
-      Main
+      <Navbar />
     </div>
-  )
+  );
 }
 
-export default Main
+export default Main;
