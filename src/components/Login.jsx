@@ -10,8 +10,8 @@ function Login() {
   const { isLoading } = useSelector((state) => state.auth);
 
   const loginHandler = (e) => {
-    dispatch(loginUserStart());
     e.preventDefault();
+    dispatch(loginUserStart());
   };
 
   return (
