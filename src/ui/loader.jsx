@@ -1,11 +1,9 @@
-import React from 'react'
-
-function Loader() {
-  return (
-    <div className="d-block mx-auto spinner-border">
-      <span className="visually-hidden">Loading...</span>
-    </div>
-  )
+const Loader = () => {
+	return (
+		<div class='spinner-border d-block mx-auto' role='status'>
+			<span class='visually-hidden'>Loading...</span>
+		</div>
+	)
 }
 
-export default Loader;
+export default Loader
